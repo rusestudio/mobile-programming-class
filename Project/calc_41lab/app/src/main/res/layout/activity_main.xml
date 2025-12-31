@@ -1,0 +1,65 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit1"
+        android:layout_margin="10dp"
+        android:hint="num1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit2"
+        android:layout_margin="10dp"
+        android:hint="num1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnAdd"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Addition" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnSub"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Subtraction" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnMul"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Multiply" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnDiv"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Division" />
+
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="계산 결과 :"
+        android:textColor="#FF0000"
+        android:textSize="30dp"/>
+
+</LinearLayout>
